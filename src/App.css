@@ -44,7 +44,6 @@
 
 .data {
   margin-left: 25px;
-  flex: 1;
   text-align: start;
   word-break: break-word;
 }
@@ -94,4 +93,13 @@
 
 img {
   height: 30px;
+}
+
+@media(max-width:420px) {
+  .buttons {
+    width: 40%;
+  }
+  .btn1,.btn2{
+    padding: 8px;
+  }
 }
